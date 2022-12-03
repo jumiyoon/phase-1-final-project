@@ -10,3 +10,20 @@ body {
     width: 50%;
   }
 
+
+.add-eats {
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+.input {
+    border-radius: 2px;
+    width: 30%;
+    height: 1.5rem;
+}
+
+.input-dropdown {
+    border-radius: 2px;
+    width: 15%;
+    height: 1.5rem;
+}
