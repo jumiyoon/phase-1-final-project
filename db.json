@@ -7,7 +7,6 @@
         "image": "https://s3-media0.fl.yelpcdn.com/bphoto/XVfMdceeo-21CFZbyZdvZA/o.jpg",
         "type": "Thai",
         "popular_dish": "Pad Thai",
-        "dish_image": "https://s3-media0.fl.yelpcdn.com/bphoto/2Qx95QiF8skV7SiQfV_5BQ/o.jpg",
         "likes": 13
       },
       {
@@ -17,7 +16,6 @@
         "image": "https://s3-media0.fl.yelpcdn.com/bphoto/wehWoxSrEijWIeXpLdvgsA/o.jpg",
         "type": "Chinese",
         "popular_dish": "Beef Chow Fun",
-        "dish_image": "https://s3-media0.fl.yelpcdn.com/bphoto/EuO9VslZgkAMtWu8NfYJKA/o.jpg",
         "likes": 10
       },
       {
@@ -27,7 +25,6 @@
         "image": "https://s3-media0.fl.yelpcdn.com/bphoto/uN2sZkkk08FJvHT5ddeZGg/o.jpg",
         "type": "Hawaiian",
         "popular_dish": "Poke Bowl",
-        "dish_image": "https://s3-media0.fl.yelpcdn.com/bphoto/WC95-Mgtd_ulspUSPJNZbw/o.jpg",
         "likes": 11
       },
       {
@@ -37,7 +34,6 @@
         "image": "https://s3-media0.fl.yelpcdn.com/bphoto/1DCkMBHX3tTKdJbLPhi0GA/o.jpg",
         "type": "Chinese",
         "popular_dish": "Beef Chow Fun",
-        "dish_image": "https://s3-media0.fl.yelpcdn.com/bphoto/PYF-kqJ8BFsvvseRuA0NtA/o.jpg",
         "likes": 15
       },
       {
@@ -47,7 +43,6 @@
         "image": "https://s3-media0.fl.yelpcdn.com/bphoto/I9yx7Ul0KYnDRs2MKtWYlA/o.jpg",
         "type": "Mexican",
         "popular_dish": "Super Burrito",
-        "dish_image": "https://s3-media0.fl.yelpcdn.com/bphoto/3MTvNRPFjWyT_pkeSRlD1Q/o.jpg",
         "likes": 9
       },
       {
@@ -57,7 +52,6 @@
         "image": "https://s3-media0.fl.yelpcdn.com/bphoto/5luUtTs90izep-zPtU5JOg/o.jpg",
         "type": "Chinese",
         "popular_dish": "Mongolian Beef",
-        "dish_image": "https://s3-media0.fl.yelpcdn.com/bphoto/WmQWN0Qf2JkbO7ji5oreOQ/o.jpg",
         "likes": 4
       },
       {
@@ -67,7 +61,6 @@
         "image": "https://s3-media0.fl.yelpcdn.com/bphoto/9ynyPMMkbwZn5DXMb0p6FQ/o.jpg",
         "type": "Hawaiian",
         "popular_dish": "Chicken Katsu",
-        "dish_image": "https://s3-media0.fl.yelpcdn.com/bphoto/kh3pCpBonfSZDnqR-JA71Q/o.jpg",
         "likes": 12
       }
     ]

@@ -5,14 +5,13 @@ body {
 #eats-header {
     display: block;
     margin-top: 3%;
-    margin-left: auto;
+    margin-left: 30%;
     margin-right: auto;
-    width: 50%;
   }
 
 
 .add-eats {
-    margin-left: 40%;
+    margin-left: 35%;
     margin-right: auto;
 }
 
