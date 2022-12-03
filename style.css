@@ -9,20 +9,44 @@ body {
     margin-right: auto;
   }
 
+.container {
+    padding: 1rem;
+    width: stretch;
+    height: auto;
+    background: rgb(253, 255, 229);
+  }
 
 .add-eats {
     margin-left: 35%;
     margin-right: auto;
+    
 }
 
 .input {
     border-radius: 2px;
     width: 30%;
     height: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .input-dropdown {
     border-radius: 2px;
     width: 15%;
     height: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    margin-left: 35%;
+    margin-right: auto;
+    border: none;
+    border-radius:8px;
+    background-color: rgb(75, 75, 234);
+    color: white;
+    font-size: 18px;
+    height: 4rem;
+    width: 240px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }

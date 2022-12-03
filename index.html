@@ -1,89 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <title>Davis Eats</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script defer type="text/javascript" src="./src/index.js"></script>
-</head>
-<body>
-    <div id="eats-header">
-        <img src="davis-eats.png" alt="eats logo">
-        <br>
-        <img src="description.png" alt="website description">
-    </div>
-
-    <div class="container">
-        <table>
-
-        </table>
-        <form class="add-eats">
-            <img src="add-eats.png" alt="add eats">
+    <head>
+        <meta charset="utf-8" />
+        <title>Davis Eats</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script defer type="text/javascript" src="./src/index.js"></script>
+    </head>
+    <body>
+        <div id="eats-header">
+            <img src="davis-eats.png" alt="eats logo">
             <br>
+            <img src="description.png" alt="website description">
+        </div>
 
-            <input
-                type="text"
-                name="name"
-                value=""
-                class="input"
-            >
+        <div class="container">
+            <form class="add-eats">
+                <img src="add-eats.png" alt="add eats">
+                <br>
+
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="name of your favorite eats"
+                    value=""
+                    class="input"
+                >
+                <br>
+            
+                <select class="input-dropdown"> 
+                    <option value="downtown">Downtown</option>
+                    <option value="north">North Davis</option>
+                    <option value="east">East Davis</option>
+                    <option value="south">South Davis</option>
+                    <option value="west">West Davis</option>
+                    
+                </select>
+                <br>
+                <input
+                    type="text"
+                    name="restaurant image"
+                    placeholder="outdoor image of your favorite eats"
+                    class="input"
+                >
+                <br>
+                <input
+                    type="text"
+                    name="type"
+                    placeholder="i.e.) Chinese, Hawaiian, ..."
+                    class="input"
+                >
+                <br>
+    
+                <input
+                    type="text"
+                    name="popular dish"
+                    placeholder="most popular dish of your favorite eats"
+                    class="input"
+                >
+                <br>
+            </form>
             <br>
-        
-            <select class="input-dropdown"> 
-                <option value="downtown">Downtown</option>
-                <option value="north">North Davis</option>
-                <option value="east">East Davis</option>
-                <option value="south">South Davis</option>
-                <option value="west">West Davis</option>
-                
-            </select>
             <br>
-            <input
-                type="text"
-                name="restaurant image"
-                class="input"
-            >
-            <br>
-            <input
-                type="text"
-                name="type"
-                placeholder="i.e.) Chinese, Hawaiian, ..."
-                class="input"
-            >
-            <br>
-  
-            <input
-                type="text"
-                name="popular dish"
-                class="input"
-            >
-            <br>
-
-
-
-
-        </form>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
+            <button id="new-eats-btn">add your favorite eats!</button>
+        <script type="text/javascript" src="src/index.js"></script>
+    </body>
 </html>
