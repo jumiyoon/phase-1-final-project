@@ -23,24 +23,22 @@ body {
 }
 
 .input {
-    border-radius: 2px;
+    border-radius: 15px;
     width: 30%;
     height: 1.5rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .input-dropdown {
-    border-radius: 2px;
+    border-radius: 15px;
     width: 15%;
     height: 1.5rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .like-eats {
-    margin-left: 35%;
-    margin-right: auto;
     border: none;
-    border-radius:8px;
+    border-radius:20px;
     background-color: rgb(75, 75, 234);
     color: white;
     font-size: 18px;
@@ -53,4 +51,13 @@ body {
 
 #eats-cards {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.eats-img {
+    width: 450px;
+    height: 500px;
+    border-radius:100px;
 }

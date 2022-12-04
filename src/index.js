@@ -6,7 +6,7 @@ function buildCards(eat) {
     card.innerHTML = `
     <div class="card">
     <h2>${eat.name}</h2>
-    <img src=${eat.image} alt=${eat.name}>
+    <img src=${eat.image} class="eats-img" id=${eat.id}>
     <p><b>Location:</b> ${eat.location}</p>
     <p><b>Cuisine:</b> ${eat.type}</p>
     <p><b>Popular Dish:</b> ${eat.popular_dish}</p>
