@@ -1,74 +1,83 @@
 {
-    "restaurants": [
-      {
-        "id": 1,
-        "name": "Thai Canteen",
-        "yelp": "https://www.yelp.com/biz/thai-canteen-davis",
-        "location": "Downtown",
-        "image": "https://s3-media0.fl.yelpcdn.com/bphoto/XVfMdceeo-21CFZbyZdvZA/o.jpg",
-        "type": "Thai",
-        "popular_dish": "Pad Thai",
-        "likes": 13
-      },
-      {
-        "id": 2,
-        "name": "Tasty Kitchen",
-        "yelp": "https://www.yelp.com/biz/tasty-kitchen-davis?osq=tasty+kitchen",
-        "location": "Downtown",
-        "image": "https://s3-media0.fl.yelpcdn.com/bphoto/wehWoxSrEijWIeXpLdvgsA/o.jpg",
-        "type": "Chinese",
-        "popular_dish": "Beef Chow Fun",
-        "likes": 10
-      },
-      {
-        "id": 3,
-        "name": "Good Friends Hawaiian Poke",
-        "yelp": "https://www.yelp.com/biz/good-friends-hawaiian-poke-davis",
-        "location": "Downtown",
-        "image": "https://s3-media0.fl.yelpcdn.com/bphoto/uN2sZkkk08FJvHT5ddeZGg/o.jpg",
-        "type": "Hawaiian",
-        "popular_dish": "Poke Bowl",
-        "likes": 11
-      },
-      {
-        "id": 4,
-        "name": "Tasty Gourmet",
-        "yelp": "https://www.yelp.com/biz/tasty-gourmet-davis-3?osq=tasty+gourmet",
-        "location": "East Davis",
-        "image": "https://s3-media0.fl.yelpcdn.com/bphoto/1DCkMBHX3tTKdJbLPhi0GA/o.jpg",
-        "type": "Chinese",
-        "popular_dish": "Beef Chow Fun",
-        "likes": 15
-      },
-      {
-        "id": 5,
-        "name": "Taqueria Guadalajara",
-        "yelp": "https://www.yelp.com/biz/taqueria-guadalajara-davis?osq=food",
-        "location": "North Davis",
-        "image": "https://s3-media0.fl.yelpcdn.com/bphoto/I9yx7Ul0KYnDRs2MKtWYlA/o.jpg",
-        "type": "Mexican",
-        "popular_dish": "Super Burrito",
-        "likes": 9
-      },
-      {
-        "id": 6,
-        "name": "Ding How",
-        "yelp": "https://www.yelp.com/biz/ding-how-restaurant-davis",
-        "location": "North Davis",
-        "image": "https://s3-media0.fl.yelpcdn.com/bphoto/5luUtTs90izep-zPtU5JOg/o.jpg",
-        "type": "Chinese",
-        "popular_dish": "Mongolian Beef",
-        "likes": 4
-      },
-      {
-        "id": 7,
-        "name": "Tim's Hawaiian Kitchen",
-        "yelp": "https://www.yelp.com/biz/tims-hawaiian-bbq-davis",
-        "location": "Downtown",
-        "image": "https://s3-media0.fl.yelpcdn.com/bphoto/9ynyPMMkbwZn5DXMb0p6FQ/o.jpg",
-        "type": "Hawaiian",
-        "popular_dish": "Chicken Katsu",
-        "likes": 12
-      }
-    ]
-  }
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Thai Canteen",
+      "yelp": "https://www.yelp.com/biz/thai-canteen-davis",
+      "location": "Downtown",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/XVfMdceeo-21CFZbyZdvZA/o.jpg",
+      "type": "Thai",
+      "popular_dish": "Pad Thai",
+      "likes": 13
+    },
+    {
+      "id": 2,
+      "name": "Tasty Kitchen",
+      "yelp": "https://www.yelp.com/biz/tasty-kitchen-davis?osq=tasty+kitchen",
+      "location": "Downtown",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/wehWoxSrEijWIeXpLdvgsA/o.jpg",
+      "type": "Chinese",
+      "popular_dish": "Beef Chow Fun",
+      "likes": 10
+    },
+    {
+      "id": 3,
+      "name": "Good Friends Hawaiian Poke",
+      "yelp": "https://www.yelp.com/biz/good-friends-hawaiian-poke-davis",
+      "location": "Downtown",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/uN2sZkkk08FJvHT5ddeZGg/o.jpg",
+      "type": "Hawaiian",
+      "popular_dish": "Poke Bowl",
+      "likes": 11
+    },
+    {
+      "id": 4,
+      "name": "Tasty Gourmet",
+      "yelp": "https://www.yelp.com/biz/tasty-gourmet-davis-3?osq=tasty+gourmet",
+      "location": "East Davis",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/1DCkMBHX3tTKdJbLPhi0GA/o.jpg",
+      "type": "Chinese",
+      "popular_dish": "Beef Chow Fun",
+      "likes": 15
+    },
+    {
+      "id": 5,
+      "name": "Taqueria Guadalajara",
+      "yelp": "https://www.yelp.com/biz/taqueria-guadalajara-davis?osq=food",
+      "location": "North Davis",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/I9yx7Ul0KYnDRs2MKtWYlA/o.jpg",
+      "type": "Mexican",
+      "popular_dish": "Super Burrito",
+      "likes": 9
+    },
+    {
+      "id": 6,
+      "name": "Ding How",
+      "yelp": "https://www.yelp.com/biz/ding-how-restaurant-davis",
+      "location": "North Davis",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/5luUtTs90izep-zPtU5JOg/o.jpg",
+      "type": "Chinese",
+      "popular_dish": "Mongolian Beef",
+      "likes": 4
+    },
+    {
+      "id": 7,
+      "name": "Tim's Hawaiian Kitchen",
+      "yelp": "https://www.yelp.com/biz/tims-hawaiian-bbq-davis",
+      "location": "Downtown",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/9ynyPMMkbwZn5DXMb0p6FQ/o.jpg",
+      "type": "Hawaiian",
+      "popular_dish": "Chicken Katsu",
+      "likes": 12
+    },
+    {
+      "name": "My Burma",
+      "location": "downtown",
+      "yelp": "https://www.yelp.com/biz/my-burma-davis",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/xkwYIHFdAobGjEl9pSpuig/o.jpg",
+      "type": "Other",
+      "popular_dish": "Tea Leaf Salad",
+      "id": 8
+    }
+  ]
+}
