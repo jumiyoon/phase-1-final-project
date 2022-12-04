@@ -9,12 +9,14 @@ body {
     margin-right: auto;
   }
 
-.container {
+.form-box {
     padding: 1rem;
     width: stretch;
     height: auto;
     background: rgb(253, 255, 229);
+    margin: auto;
   }
+
 
 .add-eats {
     margin-left: 35%;
@@ -22,8 +24,18 @@ body {
     
 }
 
+.submit-button {
+    border: none;
+    border-radius:15px;
+    background-color: #2540dd;
+    color: white;
+    font-size: 16px;
+    height: 2.5rem;
+    width: 100px; 
+
+}
 .input {
-    border-radius: 15px;
+    border-radius: 10px;
     width: 30%;
     height: 1.5rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -36,28 +48,31 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.like-eats {
-    border: none;
-    border-radius:20px;
-    background-color: rgb(75, 75, 234);
-    color: white;
-    font-size: 18px;
-    height: 3rem;
-    width: 100px;
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-#eats-cards {
+.card {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     list-style-type: none;
-
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 5%;
 }
 
 .eats-img {
-    width: 450px;
-    height: 500px;
-    border-radius:100px;
+    width: 260px;
+    height: 330px;
+    border-radius:50px;
 }
+
+.like-button {
+    border: none;
+    border-radius:15px;
+    background-color: #2540dd;
+    color: white;
+    font-size: 18px;
+    height: 3rem;
+    width: 100px; 
+    
+}
+

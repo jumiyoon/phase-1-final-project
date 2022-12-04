@@ -5,12 +5,12 @@ function buildCards(eat) {
     // build restaurant card
     card.innerHTML = `
     <div class="card">
-    <h2>${eat.name}</h2>
+    <h4>${eat.name}</h4>
     <img src=${eat.image} class="eats-img" id=${eat.id}>
     <p><b>Location:</b> ${eat.location}</p>
     <p><b>Cuisine:</b> ${eat.type}</p>
     <p><b>Popular Dish:</b> ${eat.popular_dish}</p>
-    <button class="like-eats" id=${eat.id}>Like 💛</button>
+    <button class="like-button" id=${eat.id}>Like 💛</button>
     <div>`
 
     // add card to the DOM
