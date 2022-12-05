@@ -65,7 +65,7 @@ body {
     opacity: 1;
 }
 
-.like-button {
+.like-status {
     border: none;
     border-radius:15px;
     background-color: #2540dd;
@@ -82,7 +82,7 @@ body {
     background-color:rgb(253, 255, 229);
     height: 2rem;
     width: 2rem;
-    margin-left: 5px;
+    margin-left: 1px;
 }
 
 .minus {
@@ -91,6 +91,6 @@ body {
     background-color:rgb(253, 255, 229);
     height: 2rem;
     width: 2rem;
-    margin-right: 5px;
+    margin-right:
 }
 

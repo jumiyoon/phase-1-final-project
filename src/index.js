@@ -24,7 +24,7 @@ function buildCards(eat) {
     <b>Popular Dish:</b> ${eat.popular_dish} <br>`
 
     const eatsLike = document.createElement("button")
-    eatsLike.className = "like-button"
+    eatsLike.className = "like-status"
     eatsLike.textContent = `${eat.likes} Likes`
 
     const plus = document.createElement("button")
@@ -36,13 +36,27 @@ function buildCards(eat) {
     minus.textContent = "-"
 
     
-
+    // add cards to DOM
     div.append(eatsName, eatsYelp, eatsInfo, plus, eatsLike, minus)
-
     const eatCards = document.querySelector("#eat-cards")
     document.getElementById("eats-cards").appendChild(div);
 
+    // modify likes
+    div.querySelector(".plus").addEventListener("click", plusLikes)
+    function plusLikes() {
+        eat.likes += 1;
+        div.querySelector(".like-status").textContent = `${eat.likes} Likes`;
+        modifyLikes(eat);
+    }
+
+    div.querySelector(".minus").addEventListener("click", minusLikes)
+    function minusLikes() {
+        eat.likes -= 1;
+        div.querySelector(".like-status").textContent = `${eat.likes} Likes`;
+        modifyLikes(eat);
+    }
 }
+
 
 
 function getCards() {
@@ -54,8 +68,9 @@ function getCards() {
 
 getCards();
 
-// 2. submit new restaurant info
 
+
+// 2. submit new restaurant info
 const formSubmit = document.querySelector(".add-eats")
 formSubmit.addEventListener("submit", handleSubmit)
 
@@ -91,12 +106,17 @@ function submitInfo(newObj) {
 
 
 
-// 3. hover over image event
-// const eatsImg = document.querySelector(".eats-img")
-
-// document.addEventListener("DOMContentLoaded", () => {
-//     eatsImg.addEventListener("click", () => console.log("I was clicked"))
-
-// })
-
-// document.getElementsByClassName(".eats-cards").querySelectorAll("div.card img")
+// 3. add / subtract likes
+function modifyLikes(eats) {
+    fetch(`http://localhost:3000/restaurants/${eats.id}`, {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify(eats),
+      })
+      .then(res => res.json())
+      .then(eats => console.log(eats))
+    
+}
