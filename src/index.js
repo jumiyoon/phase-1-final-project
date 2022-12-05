@@ -90,7 +90,6 @@ const formSubmit = document.querySelector(".add-eats")
 formSubmit.addEventListener("submit", handleSubmit)
 
 function handleSubmit(e) {
-    e.preventDefault();
     console.log(e)
     let newObj = {
             "name": e.target[0].value,
