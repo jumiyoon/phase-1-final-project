@@ -38,7 +38,7 @@
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/1DCkMBHX3tTKdJbLPhi0GA/o.jpg",
       "type": "Chinese",
       "popular_dish": "Beef Chow Fun",
-      "likes": 16
+      "likes": 15
     },
     {
       "id": 5,
@@ -77,7 +77,7 @@
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/xkwYIHFdAobGjEl9pSpuig/o.jpg",
       "type": "Other",
       "popular_dish": "Tea Leaf Salad",
-      "likes": 3,
+      "likes": 13,
       "id": 8
     }
   ]

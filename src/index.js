@@ -1,6 +1,7 @@
 
 // 1. build & add restaurant cards
 function buildCards(eat) {
+    //build a restaurant card
     const div = document.createElement("div")
     div.className = "card"
 
@@ -36,10 +37,11 @@ function buildCards(eat) {
     minus.textContent = "-"
 
     
-    // add cards to DOM
+    // add restaurant card to DOM
     div.append(eatsName, eatsYelp, eatsInfo, plus, eatsLike, minus)
     const eatCards = document.querySelector("#eat-cards")
     document.getElementById("eats-cards").appendChild(div);
+
 
     // modify likes
     div.querySelector(".plus").addEventListener("click", plusLikes)
@@ -55,6 +57,19 @@ function buildCards(eat) {
         div.querySelector(".like-status").textContent = `${eat.likes} Likes`;
         modifyLikes(eat);
     }
+
+
+    // change opacity when mouseover
+    div.querySelector(".eats-img").addEventListener("mouseover", makeDim)
+    function makeDim() {
+        div.querySelector(".eats-img").style.opacity = "0.5";
+    }
+
+    div.querySelector(".eats-img").addEventListener("mouseout", makeOriginal)
+    function makeOriginal() {
+        div.querySelector(".eats-img").style.opacity = "1";
+    }
+
 }
 
 
@@ -120,3 +135,5 @@ function modifyLikes(eats) {
       .then(eats => console.log(eats))
     
 }
+
+
