@@ -80,8 +80,8 @@ getCards();
 
 
 // 2. submit new restaurant info
-const formSubmit = document.querySelector(".add-eats");
-formSubmit.addEventListener("submit", handleSubmit);
+const newSubmit = document.querySelector(".add-eats");
+newSubmit.addEventListener("submit", handleSubmit);
 
 function handleSubmit(e) {
     console.log(e)
@@ -129,3 +129,4 @@ function modifyLikes(eats) {
 }
 
 
+// 4. return restaurant(s) based on cuisine
