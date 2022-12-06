@@ -1,4 +1,3 @@
-
 // 1. build & add restaurant cards
 function buildCards(eat) {
     //build a restaurant card
@@ -8,15 +7,13 @@ function buildCards(eat) {
     const eatsName = document.createElement("h4")
     eatsName.textContent = `${eat.name}`
 
-    const eatsYelp = document.createElement("a")
-    eatsYelp.href = `${eat.yelp}`
+    const a = document.createElement("a")
+    a.href = `${eat.yelp}`
 
     const eatsImg = document.createElement("img")
     eatsImg.className = "eats-img"
     eatsImg.src = `${eat.image}`
-    
-
-    eatsYelp.append(eatsImg)
+    a.append(eatsImg)
 
     const eatsInfo = document.createElement("p")
     eatsInfo.innerHTML = `
@@ -38,20 +35,19 @@ function buildCards(eat) {
 
     
     // add restaurant card to DOM
-    div.append(eatsName, eatsYelp, eatsInfo, plus, eatsLike, minus)
-    const eatCards = document.querySelector("#eat-cards")
+    div.append(eatsName, a, eatsInfo, plus, eatsLike, minus);
     document.getElementById("eats-cards").appendChild(div);
 
 
     // modify likes
-    div.querySelector(".plus").addEventListener("click", plusLikes)
+    div.querySelector(".plus").addEventListener("click", plusLikes);
     function plusLikes() {
         eat.likes += 1;
         div.querySelector(".like-status").textContent = `${eat.likes} Likes`;
         modifyLikes(eat);
     }
 
-    div.querySelector(".minus").addEventListener("click", minusLikes)
+    div.querySelector(".minus").addEventListener("click", minusLikes);
     function minusLikes() {
         eat.likes -= 1;
         div.querySelector(".like-status").textContent = `${eat.likes} Likes`;
@@ -60,19 +56,16 @@ function buildCards(eat) {
 
 
     // change opacity when mouseover
-    div.querySelector(".eats-img").addEventListener("mouseover", makeDim)
+    div.querySelector(".eats-img").addEventListener("mouseover", makeDim);
     function makeDim() {
         div.querySelector(".eats-img").style.opacity = "0.5";
     }
 
-    div.querySelector(".eats-img").addEventListener("mouseout", makeOriginal)
-    function makeOriginal() {
+    div.querySelector(".eats-img").addEventListener("mouseout", revert);
+    function revert() {
         div.querySelector(".eats-img").style.opacity = "1";
     }
-
 }
-
-
 
 function getCards() {
      // fetch data from JSON server
@@ -85,9 +78,10 @@ getCards();
 
 
 
+
 // 2. submit new restaurant info
-const formSubmit = document.querySelector(".add-eats")
-formSubmit.addEventListener("submit", handleSubmit)
+const formSubmit = document.querySelector(".add-eats");
+formSubmit.addEventListener("submit", handleSubmit);
 
 function handleSubmit(e) {
     console.log(e)
@@ -103,8 +97,6 @@ function handleSubmit(e) {
     submitInfo(newObj);
 }
 
-
-
 function submitInfo(newObj) {
     fetch("http://localhost:3000/restaurants", {
         method: "POST",
@@ -117,6 +109,7 @@ function submitInfo(newObj) {
     .then (res => res.json())
     .then (eats => console.log(eats))
 }
+
 
 
 

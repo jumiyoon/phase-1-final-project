@@ -3,18 +3,23 @@ body {
 }
 
 
+/* logo */
 #eats-header {
     display: block;
     margin-top: 3%;
     text-align: center;
     margin-right: auto;
-  }
+}
 
+  
+
+
+/* form elements */
 .form-box {
     padding: 1rem;
     height: auto;
     text-align: center;
-  }
+}
 
 .submit-button {
     border: none;
@@ -25,7 +30,6 @@ body {
     height: 2.5rem;
     width: 100px; 
 }
-
 
 .input {
     border-radius: 10px;
@@ -41,6 +45,10 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+
+
+/* card elements */
 #eats-cards {
     background: rgb(253, 255, 229);
 }
@@ -52,7 +60,6 @@ body {
     margin-left: 4%;
     margin-right: 4%;
     margin-bottom: 5%;
-    
 }
 
 .eats-img {
@@ -69,8 +76,7 @@ body {
     color: white;
     font-size: 18px;
     height: 3rem;
-    width: 100px; 
-    
+    width: 100px;  
 }
 
 .plus {
