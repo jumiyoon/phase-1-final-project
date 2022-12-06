@@ -6,7 +6,7 @@ body {
 #eats-header {
     display: block;
     margin-top: 3%;
-    margin-left: 35%;
+    text-align: center;
     margin-right: auto;
   }
 
@@ -24,8 +24,9 @@ body {
     font-size: 16px;
     height: 2.5rem;
     width: 100px; 
-
 }
+
+
 .input {
     border-radius: 10px;
     width: 23%;
