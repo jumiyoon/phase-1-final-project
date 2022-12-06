@@ -8,7 +8,7 @@
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/XVfMdceeo-21CFZbyZdvZA/o.jpg",
       "type": "Thai",
       "popular_dish": "Pad Thai",
-      "likes": 14
+      "likes": 11
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/wehWoxSrEijWIeXpLdvgsA/o.jpg",
       "type": "Chinese",
       "popular_dish": "Beef Chow Fun",
-      "likes": 9
+      "likes": 12
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/uN2sZkkk08FJvHT5ddeZGg/o.jpg",
       "type": "Hawaiian",
       "popular_dish": "Poke Bowl",
-      "likes": 12
+      "likes": 9
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/1DCkMBHX3tTKdJbLPhi0GA/o.jpg",
       "type": "Chinese",
       "popular_dish": "Beef Chow Fun",
-      "likes": 15
+      "likes": 9
     },
     {
       "id": 5,
@@ -77,7 +77,7 @@
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/SpiG-7jWz0xyTfI-ePvMDQ/o.jpg",
       "type": "Other",
       "popular_dish": "Tea Leaf Salad",
-      "likes": 3,
+      "likes": 8,
       "id": 8
     }
   ]
