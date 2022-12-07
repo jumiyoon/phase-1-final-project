@@ -82,7 +82,7 @@ function buildCards(eat) {
         changeCuisine();
 
         function changeCuisine(){
-            const select = document.querySelector(".input-dropdown");
+            const select = document.querySelector(".cravings-dropdown");
             select.addEventListener("click", () => {
                 card.style.display = "";
             })
