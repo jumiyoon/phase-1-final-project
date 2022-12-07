@@ -65,6 +65,19 @@ function buildCards(eat) {
     function revert() {
         div.querySelector(".eats-img").style.opacity = "1";
     }
+
+    // show cards based on craving
+    const findSubmit = document.querySelector(".find-eats");
+    findSubmit.addEventListener("submit", returnEats)
+    
+    function returnEats(e){
+        e.preventDefault()
+        const card = document.querySelector(".card")
+        console.log(e)
+        if (eat.type !== e.target[0].value) {
+            card.style.display = "none";
+        }
+    }
 }
 
 function getCards() {
@@ -130,3 +143,12 @@ function modifyLikes(eats) {
 
 
 // 4. return restaurant(s) based on cuisine
+
+//     fetch("http://localhost:3000/restaurants")
+//     .then(res => res.json())
+//     .then(eats => eats.forEach(eat => returnEats(eat)))
+
+// })
+
+
+
