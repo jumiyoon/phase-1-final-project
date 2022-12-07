@@ -3,6 +3,7 @@ function buildCards(eat) {
     //build a restaurant card
     const div = document.createElement("div")
     div.id= `card-${eat.id}`
+    div.className = "card"
 
     const eatsName = document.createElement("h4")
     eatsName.textContent = `${eat.name}`
