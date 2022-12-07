@@ -2,7 +2,7 @@
 function buildCards(eat) {
     //build a restaurant card
     const div = document.createElement("div")
-    div.className = "card"
+    div.id= `card-${eat.id}`
 
     const eatsName = document.createElement("h4")
     eatsName.textContent = `${eat.name}`
