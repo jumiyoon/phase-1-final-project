@@ -78,6 +78,16 @@ function buildCards(eat) {
         if (eat.type !== e.target[0].value) {
             card.style.display = "none";
         }
+
+        changeCuisine();
+
+        function changeCuisine(){
+            const select = document.querySelector(".input-dropdown");
+            select.addEventListener("click", () => {
+                card.style.display = "";
+            })
+
+        }
     }
 }
 
