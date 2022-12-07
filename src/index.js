@@ -66,36 +66,16 @@ function buildCards(eat) {
     function revert() {
         div.querySelector(".eats-img").style.opacity = "1";
     }
-
-    // show cards based on craving
-    const findSubmit = document.querySelector(".find-eats");
-    findSubmit.addEventListener("submit", returnEats)
-    
-    function returnEats(e){
-        e.preventDefault();
-        const card = document.querySelector(`#card-${eat.id}`)
-        console.log(e)
-        if (eat.type !== e.target[0].value) {
-            card.style.display = "none";
-        }
-
-        changeCuisine();
-
-        function changeCuisine(){
-            const select = document.querySelector(".cravings-dropdown");
-            select.addEventListener("click", () => {
-                card.style.display = "";
-            })
-
-        }
-    }
 }
 
 function getCards() {
      // fetch data from JSON server
     fetch("http://localhost:3000/restaurants")
     .then(res => res.json())
-    .then(eats => eats.forEach(eat => buildCards(eat)))   
+    .then(eats => eats.forEach(eat => {
+        buildCards(eat);
+        returnEats(eat);
+    }))   
 }
 
 getCards();
@@ -154,12 +134,25 @@ function modifyLikes(eats) {
 
 
 // 4. return restaurant(s) based on cuisine
+function returnEats(eat) {
+    const findSubmit = document.querySelector(".find-eats");
+    findSubmit.addEventListener("submit", submitEvent)
+    
+    function submitEvent(e){
+        // display cards that match user's craving
+        e.preventDefault();
+        const card = document.querySelector(`#card-${eat.id}`)
+        console.log(e)
+        if (eat.type !== e.target[0].value) {
+            card.style.display = "none";
+        }
 
-//     fetch("http://localhost:3000/restaurants")
-//     .then(res => res.json())
-//     .then(eats => eats.forEach(eat => returnEats(eat)))
+        // remove display = "none" when user chooses a different cuisine
+        const select = document.querySelector(".cravings-submit");
+        select.addEventListener("click", () => card.style.display = "")
 
-// })
+    }
+}
 
 
 

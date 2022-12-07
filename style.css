@@ -25,6 +25,16 @@ body {
     width: 100px; 
 }
 
+.cravings-submit {
+    border: none;
+    border-radius:15px;
+    background-color: #2540dd;
+    color: white;
+    font-size: 16px;
+    height: 2.5rem;
+    width: 100px; 
+}
+
 .input {
     border-radius: 10px;
     width: 23%;

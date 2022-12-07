@@ -89,6 +89,16 @@
       "popular_dish": "Bento Box",
       "likes": 8,
       "id": 9
+    },
+    {
+      "name": "Burgers and Brew",
+      "location": "Downtown",
+      "yelp": "https://www.yelp.com/biz/burgers-and-brew-davis",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/r33TnxP9P_rTeQtn0FOffw/o.jpg",
+      "type": "American",
+      "popular_dish": "Cheeseburger",
+      "likes": 4,
+      "id": 10
     }
   ]
 }
