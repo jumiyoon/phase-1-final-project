@@ -71,8 +71,8 @@ function buildCards(eat) {
     findSubmit.addEventListener("submit", returnEats)
     
     function returnEats(e){
-        e.preventDefault()
-        const card = document.querySelector(".card")
+        e.preventDefault();
+        const card = document.querySelector(`#card-${eat.id}`)
         console.log(e)
         if (eat.type !== e.target[0].value) {
             card.style.display = "none";
