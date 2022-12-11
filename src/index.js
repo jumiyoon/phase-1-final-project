@@ -36,7 +36,7 @@ function buildCards(eat) {
 
     
     // add restaurant card to DOM
-    div.append(eatsName, a, eatsInfo, plus, eatsLike, minus);
+    div.append(eatsName, a, eatsInfo, minus, eatsLike, plus);
     document.getElementById("eats-cards").appendChild(div);
 
 
