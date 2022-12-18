@@ -68,7 +68,7 @@
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/9ynyPMMkbwZn5DXMb0p6FQ/o.jpg",
       "type": "Hawaiian",
       "popular_dish": "Chicken Katsu",
-      "likes": 12
+      "likes": 14
     },
     {
       "name": "My Burma",
@@ -97,7 +97,7 @@
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/r33TnxP9P_rTeQtn0FOffw/o.jpg",
       "type": "American",
       "popular_dish": "Cheeseburger",
-      "likes": 3,
+      "likes": 7,
       "id": 10
     }
   ]

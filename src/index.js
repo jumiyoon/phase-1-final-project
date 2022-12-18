@@ -143,9 +143,9 @@ function returnEats(eat) {
         e.preventDefault();
         const card = document.querySelector(`#card-${eat.id}`)
         console.log(e)
-        if (eat.type !== e.target[0].value) {
+        if (e.target[0].value !== eat.type) {
             card.style.display = "none";
-        }
+        } 
 
         // remove display = "none" when user chooses a different cuisine
         const select = document.querySelector(".cravings-submit");
@@ -153,6 +153,4 @@ function returnEats(eat) {
 
     }
 }
-
-
 
